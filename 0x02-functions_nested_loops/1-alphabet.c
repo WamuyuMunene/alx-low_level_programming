@@ -1,18 +1,15 @@
 #include "main.h"
 
 /**
- *  * main - Check description
- *   * Description: It prints the word Holberton, followed by a new line.
- *    * Return: 0.
+ *  * print_alphabet - Prints alphabet in lowercase
+ *   * Return: Nothing
 */
-int main(void)
+
+void print_alphabet(void)
 {
-	char word[9] = "main";
-	int i;
+	char i;
 
-	for (i = 0; i < 9; i++)
-	_putchar(word[i]);
+	for (i = 'a'; i <= 'z'; i++)
+	_putchar(i);
 	_putchar('\n');
-
-	return (0);
 }
