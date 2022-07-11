@@ -1,18 +1,18 @@
-#include "main.h"
-#include <stdio.h>
-
 /**
- *  * main - check the code for Holberton School students.
- *   *
- *    * Return: Always 0.
+ *  * _strcpy - a function that copies the string pointed to by src,
+ *   * including the terminating null byte (\0),
+ *    * to the buffer pointed to by dest.
+ *     *
+ *      * @dest: A pointer to destination of string
+ *       * @src: A pointer to source string to copy from
+ *        *
+ *         * Return: pointer to dest
 */
-int main(void)
+char *_strcpy(char *dest, char *src)
 {
-	char s1[98];
-	char *p;
+	char *aux = dest;
 
-	p = _strcpy(s1, "First, solve the problem. Then, write the code\n");
-	printf("%s", s1);
-	printf("%s", p);
-	return (0);
+	while (*src)
+	*dest++ = *src++;
+	return (aux);
 }
