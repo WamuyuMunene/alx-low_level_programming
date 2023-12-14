@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /*
- * int main returns int (0) if true
- * puts used to print string
+ * int main(void) - returns int (0) if true
+ * puts - used to print string
 */
 int main(void)
 
