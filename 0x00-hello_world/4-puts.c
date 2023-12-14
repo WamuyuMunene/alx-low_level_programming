@@ -1,5 +1,9 @@
 #include <stdio.h>
 /**
+ * main - c program entry point
+ *
+ * return - value returned if true
+ *
  * int main(void) - returns int (0) if true
  *
  * puts - used to print string
