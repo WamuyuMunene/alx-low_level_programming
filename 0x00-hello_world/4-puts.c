@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /*
+ * main - code block
  * int main(void) - returns int (0) if true
  * puts - used to print string
 */
