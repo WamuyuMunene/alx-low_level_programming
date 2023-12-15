@@ -13,11 +13,10 @@ int main(void)
 	char alpha;
 	int numb;
 
-	for (numb = '0'; numb < '10'; numb++)
+	for (numb = 0; numb <= 9; numb++)
 	{
 		putchar(numb + '0');
 	}
-
 	for (alpha = 'a'; alpha <= 'e'; alpha++)
 	{
 		putchar(alpha);
