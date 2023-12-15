@@ -18,11 +18,11 @@ int main(void)
 		alphal++;
 	}
 
-	char alphau = 'A';
+	alphal = 'A';
 
-	while (alphau <= 'Z')
+	while (alphal <= 'Z')
 	{
-		putchar(alphau);
+		putchar(alphal);
 		alphau++;
 	}
 	return (0);
