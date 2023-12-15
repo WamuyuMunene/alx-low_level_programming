@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int alpha = 'z';
+	char alpha = 'z';
 
 	if (alpha >= 'a')
 	{
