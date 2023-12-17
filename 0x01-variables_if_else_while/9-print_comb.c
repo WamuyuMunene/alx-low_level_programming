@@ -17,7 +17,7 @@ int main(void)
 		putchar(a);
 		if (a < '9')
 		{
-		putchar(48);
+		putchar(44);
 		putchar(32);
 		}
 		a++;
