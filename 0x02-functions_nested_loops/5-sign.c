@@ -1,7 +1,7 @@
 #include "main.h"
 
 /***
- * print_sign - checks if integer is pos/neg
+ * print_sign: checks if integer is pos/neg
  *
  * @n: parameter
  *
