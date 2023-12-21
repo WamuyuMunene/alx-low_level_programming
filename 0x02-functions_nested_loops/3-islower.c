@@ -3,7 +3,7 @@
 /**
  * _islower - checks for lowercase
  *
- * c: variable
+ * @c: variable
  *
  * Return: 0 0r 1
 */
