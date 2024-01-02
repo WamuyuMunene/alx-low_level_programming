@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - take pointer to int as parameter ad changes val
  *
- * n: int
+ *@n: int
  *
  * *n: pointer
  *
