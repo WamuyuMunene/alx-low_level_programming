@@ -11,7 +11,7 @@ int _atoi(char *s)
 {
 	int value = atoi(s);
 	
-	if (value <= 48 || value >= 57)
+	if (value >= 48 || value <= 57)
 		_putchar(value);
 	else
 		return (0);
