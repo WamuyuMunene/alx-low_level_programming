@@ -12,5 +12,4 @@ int _atoi(char *s)
 	int value = atoi(s);
 
 	_putchar(value);
-	return (0);
 }
