@@ -17,13 +17,11 @@ void print_array(int *a, int n)
 	{
 		if ( value < n)
 		{
-			_putchar(a[value]);
-			_putchar(44);
-			_putchar(32);
+			printf("%d, ", a[value]);
 		}
 		else
 		{
-			_putchar(a[value]);
+			printf("%d", a[value]);
 		}
 		_putchar('\n');
 	}
