@@ -2,15 +2,16 @@
 #include <string.h>
 
 /**
- * strlen - get string length
+ * _strlen - get string length
  *
  * @s: string
  *
- * Return: value
+ * Return: length
 */
 
 int _strlen(char *s)
 {
 	int length = strlen(s);
+
 	return (length);
 }
