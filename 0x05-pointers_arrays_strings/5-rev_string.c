@@ -18,6 +18,7 @@ void rev_string(char *s)
 	while (first < last)
 	{
 		char reverse = s[first];
+
 		s[first] = s[last];
 		s[last] = reverse;
 
