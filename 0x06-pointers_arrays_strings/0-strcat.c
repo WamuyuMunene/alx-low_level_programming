@@ -6,7 +6,7 @@
  *
  * @dest: char
  * @src: char
- * 
+ *
  * Return: pointer
  */
 
