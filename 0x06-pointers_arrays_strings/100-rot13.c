@@ -19,7 +19,7 @@ char *rot13(char *c)
 		{
 			c[index] = ((c[index] - 'a' + 13) % 26 + 'a');
 		}
-		else (c[index] > 64 && c[index] < 91)
+		else if (c[index] > 64 && c[index] < 91)
 		{
 			c[index] = ((c[index] - 'A' + 13) % 26 + 'A');
 		}
