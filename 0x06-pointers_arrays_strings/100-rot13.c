@@ -23,10 +23,6 @@ char *rot13(char *c)
 		{
 			c[index] = ((c[index] - 'A' + 13) % 26 + 'A');
 		}
-		else
-		{
-			c[index];
-		}
 		index++;
 	}
 	return (c);
