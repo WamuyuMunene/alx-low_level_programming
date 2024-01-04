@@ -15,7 +15,7 @@ char *rot13(char *c)
 
 	while (c[index] != '\0')
 	{
-		if (isalpha(c[index))
+		if (isalpha(c[index]))
 		{
 			c[index] = isupper(c[index]) ? ((c[index] - 'A' + 13) % 26) + 'A' : ((c[index] - 'a' + 13) % 26) + 'a';
 		}
