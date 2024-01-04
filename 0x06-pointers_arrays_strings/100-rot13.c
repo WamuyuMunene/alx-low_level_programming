@@ -15,9 +15,11 @@ char *rot13(char *c)
 
 	while (c[index] != '\0')
 	{
-		if (isalpha(c[index]))
+		if ((c[index] >= 'a' && c[index] <= 'z') || (c[index] >= 'A' && c[index] <= 'Z'))
 		{
-			c[index] = isupper(c[index]) ? ((c[index] - 'A' + 13) % 26) + 'A' : ((c[index] - 'a' + 13) % 26) + 'a';
+			char primary = (c[index] >= 'a' && c[index] <= 'z') ? 'a' : 'A';
+
+			c[index] = (c[index] - primary + 13) % 26 + primary;
 		}
 		index++;
 	}
