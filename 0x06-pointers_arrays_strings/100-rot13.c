@@ -15,11 +15,11 @@ char *rot13(char *c)
 
 	while (c[index] != '\0')
 	{
-		if (c[index] > 96 && c[index] < 123)
+		if (c[index] > 'a' && c[index] < 'z')
 		{
 			c[index] = ((c[index] - 'a' + 13) % 26 + 'a');
 		}
-		else if (c[index] > 64 && c[index] < 91)
+		else if (c[index] > 'A' && c[index] < 'Z')
 		{
 			c[index] = ((c[index] - 'A' + 13) % 26 + 'A');
 		}
