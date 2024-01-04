@@ -16,16 +16,16 @@ char *cap_string(char *str)
 	while (str[index] != '\0')
 	{
 		if (
-			str[index] - 1 == ',' ||
-			str[index] - 1 == ';' ||
-			str[index] - 1 == '.' ||
-			str[index] - 1 == '!' ||
-			str[index] - 1 == '?' ||
-			str[index] - 1 == '"' ||
-			str[index] - 1 == '(' ||
-			str[index] - 1 == ')' ||
-			str[index] - 1 == '{' ||
-			str[index] - 1 == '}')
+			str[index - 1] == ',' ||
+			str[index - 1] == ';' ||
+			str[index - 1] == '.' ||
+			str[index - 1] == '!' ||
+			str[index - 1] == '?' ||
+			str[index - 1] == '"' ||
+			str[index - 1] == '(' ||
+			str[index - 1] == ')' ||
+			str[index - 1] == '{' ||
+			str[index - 1] == '}')
 		{
 			str[index] = toupper((unsigned char)str[index]);
 		}
