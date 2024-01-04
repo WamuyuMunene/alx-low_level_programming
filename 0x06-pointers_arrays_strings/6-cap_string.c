@@ -30,6 +30,6 @@ char *cap_string(char *str)
 			str[index] = toupper((unsigned char)str[index]);
 		}
 		index++;
-		return (str);
 	}
+	return (str);
 }
