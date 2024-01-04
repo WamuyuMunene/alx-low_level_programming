@@ -15,9 +15,17 @@ char *rot13(char *c)
 
 	while (c[index] != '\0')
 	{	
-		if (isalpha(c[index]))
+		if (c[index] > 96 && c[index] < 123)
 		{
-			c[index] = ((c[index] - 97 + 13) % 26 + 97);
+			c[index] = ((c[index] - 'a' + 13) % 26 + 'a');
+		}
+		else if (c[index] > 64 && c[index] < 91)
+		{
+			c[index] = ((c[index] - 'A' + 13) % 26 + 'A');
+		}
+		else
+		{
+			c[index];
 		}
 		index++;
 	}
