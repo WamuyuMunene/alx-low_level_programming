@@ -14,9 +14,7 @@ char *rot13(char *c)
 	int index = 0;
 
 	while (c[index] != '\0')
-	{
-		c[index] = tolower(c[index]);
-		
+	{	
 		if (isalpha(c[index]))
 		{
 			c[index] = ((c[index] - 97 + 13) % 26 + 97);
