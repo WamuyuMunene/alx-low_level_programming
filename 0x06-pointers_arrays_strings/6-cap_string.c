@@ -27,7 +27,8 @@ char *cap_string(char *str)
 			str[index - 1] == '}' ||
 			str[index - 1] == '\n' ||
 			str[index - 1] == '\t' ||
-			str[index - 1] == 32)
+			str[index - 1] == 32 ||
+			(str[0] > 96 && str[0] < 123))
 		{
 			str[index] = toupper((unsigned char)str[index]);
 		}
