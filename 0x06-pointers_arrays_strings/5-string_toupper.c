@@ -15,7 +15,7 @@ char *string_toupper(char *str)
 
 	while (str[index] != '\0')
 	{
-		toupper(str[index]);
+		str[index] = toupper((unsigned char)str[index]);
 		index++;
 	}
 	return (str);
