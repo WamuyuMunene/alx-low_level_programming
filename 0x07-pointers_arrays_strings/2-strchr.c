@@ -4,10 +4,11 @@
 /**
  * *_strchr - locates character in string
  *
+ *
  * @s: char
  * @c: char
  *
- * return:char or null
+ * Return: search or null
  */
 
 char *_strchr(char *s, char c)
