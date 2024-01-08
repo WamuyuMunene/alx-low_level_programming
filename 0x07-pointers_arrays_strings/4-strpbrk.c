@@ -18,14 +18,9 @@ char *_strpbrk(char *s, char *accept)
 
 		if (search != NULL)
 		{
-			{
-			return (search);
-			}
+		return (search);
+		}
 		s++;
-		}
-		else
-		{
-			return (NULL);
-		}
 	}
+	return (NULL);
 }
