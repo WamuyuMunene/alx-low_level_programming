@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * is_palindrome - checks for empty string
@@ -13,14 +12,17 @@ int is_palindrome(char *s)
 {
 	int start;
 	int end;
-	int length = strlen(s);
 
-	for (start = 0, end = length -1; start < end; start++, end--)
+	if (start >= end)
 	{
-		if (s[start] != s[end])
-		{
-			return (0);
-		}
+		return (1);
 	}
-	return (1);
+	else if (s[start] != s[end])
+	{
+		return (0);
+	}
+	else
+	{
+		return (is_palindrome(s, start + 1, end - 1));
+	}
 }
