@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	int i;
 	int sum = 0;
 
-	if (argc == 0)
+	if (argc == 1)
 	{
 		printf("0\n");
 		return (0);
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 
 		while (*value)
 		{
-			if (*value < 0 || *value > 9)
+			if (*value < '0' || *value > '9')
 			{
 				printf("Error\n");
 
