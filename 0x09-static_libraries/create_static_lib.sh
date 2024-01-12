@@ -1,3 +1,4 @@
+#!/bin/bash
 gcc -Wall -pedantic -Werror -Wextra -c *.c 
 gcc -Wall -pedantic -Werror -Wextra -c ../0x05-pointers_arrays_strings/*.c
 gcc -Wall -pedantic -Werror -Wextra -c ../0x06-pointers_arrays_strings/*.c
