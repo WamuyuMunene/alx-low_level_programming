@@ -3,8 +3,8 @@
 /**
  * main - print program name\n
  *
- * argc: int
- * argv: char
+ * @argc: int
+ * @argv: char
  *
  * Return: int
  */
