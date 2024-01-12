@@ -1,4 +1,4 @@
-gcc -Wall -pedantic -Werror -Wextra -c \ 
+gcc -Wall -pedantic -Werror -Wextra -c *.c \ 
 alx-low_level_programming/0x05-pointers_arrays_strings/*.c \
 alx-low_level_programming/0x06-pointers_arrays_strings/*.c \
 alx-low_level_programming/0x07-pointers_arrays_strings/*.c \
