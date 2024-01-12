@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
 	int first;
 	int second;
-	int result = first * second;
+	int result;
 
 	if (argc != 3);
 	{
@@ -26,6 +26,7 @@ int main(int argc, char *argv[])
 
 	first = atoi(argv[1]);
 	second = atoi(argv[2]);
+	result = first * second;
 
 	printf("%d\n", result);
 
