@@ -5,7 +5,7 @@
 /**
  * *_strdup - returns pointer to mem for copy of str
  *
- * @*str: char
+ * @str: char
  *
  * Return: pointer or null
  */
