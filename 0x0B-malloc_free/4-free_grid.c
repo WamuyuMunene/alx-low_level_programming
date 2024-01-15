@@ -4,7 +4,7 @@
 /**
  * free_grid - frees 2d grid from above quiestion
  *
- * @**grid: pointer
+ * @grid: pointer
  * @height: int
  *
  * Return: void
