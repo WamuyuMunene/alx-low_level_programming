@@ -49,7 +49,7 @@ char *argstostr(int ac, char **av)
 		{
 			str[si++] = av[i][j++];
 		}
-		str[si] = '\n';
+		str[si++] = '\n';
 	}
 	str[si] = '\0';
 
