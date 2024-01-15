@@ -13,11 +13,11 @@
 char *_strdup(char *str)
 {
 	char *copyof;
-
+	
 	if (str == NULL)
-        {
-                return (NULL);
-        }
+	{
+		return (NULL);
+	}
 
 	copyof = strdup(str);
 
