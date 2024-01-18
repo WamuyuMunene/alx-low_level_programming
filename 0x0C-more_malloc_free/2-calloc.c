@@ -21,7 +21,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
                 return (NULL);
         }
 
-	array = (int *)calloc(nmemb, size);
+	array = calloc(nmemb, size);
 
 	if (array == NULL)
 	{
