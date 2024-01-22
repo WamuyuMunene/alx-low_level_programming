@@ -1,6 +1,9 @@
 #ifndef _STRUCT_
 #define _STRUCT_
 
+/**
+ * struct dog - definition of structure
+ */
 struct dog
 {
 	char *name;
