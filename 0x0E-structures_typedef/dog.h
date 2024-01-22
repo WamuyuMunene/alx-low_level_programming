@@ -1,6 +1,11 @@
 #ifndef _STRUCT_
 #define _STRUCT_
 
-typedef struct dog(char *name, float age, char *owner);
+typedef struct
+{
+	char *name;
+	float age;
+	char *owner;
+}dog;
 
 #endif
