@@ -3,6 +3,9 @@
 
 /**
  * struct dog - definition of structure
+ * @name: char
+ * @age: float
+ * @owner: char
  */
 struct dog
 {
