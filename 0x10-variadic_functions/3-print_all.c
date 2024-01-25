@@ -17,6 +17,9 @@ void print_all(const char * const format, ...)
 
 	va_start(array, format);
 	vprintf(format, array);
-
+	if ("%s" == NULL)
+	{
+		printf("(nil)");
+	}
 	va_end(array);
 }
