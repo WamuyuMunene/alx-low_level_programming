@@ -5,8 +5,6 @@
  * struct op - structure def
  * @op: char
  * @f: function pointer
- * @a: int
- * @b: int
  */
 
 typedef struct op
