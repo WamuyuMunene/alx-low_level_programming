@@ -16,10 +16,13 @@ void print_all(const char * const format, ...)
 	va_list array;
 
 	va_start(array, format);
-	vprintf(format, array);
-	if ("%s" == NULL)
 	{
-		printf("(nil)");
+		vprintf(format, array);
+		if ("%s" == NULL)
+		{
+			printf("(nil)");
+		}
 	}
+	printf("\n");
 	va_end(array);
 }
