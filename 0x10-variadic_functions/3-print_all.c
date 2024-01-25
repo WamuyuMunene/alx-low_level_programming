@@ -22,6 +22,7 @@ void print_all(const char * const format, ...)
 		{
 			printf("(nil)");
 		}
+		printf(", ");
 	}
 	printf("\n");
 	va_end(array);
