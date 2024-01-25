@@ -17,13 +17,10 @@ void print_all(const char * const format, ...)
 	va_list array;
 
 	va_start(array, format);
-	while (format && format[i])
+	vprintf(format, array);
+	if ("%s" == NULL)
 	{
-		vprintf(format, array);
-		if ("%s" == NULL)
-		{
-			printf("(nil)");
-		}
+		printf("(nil)");
 	}
 	printf("\n");
 	va_end(array);
