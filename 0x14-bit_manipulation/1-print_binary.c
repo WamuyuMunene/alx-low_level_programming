@@ -11,18 +11,22 @@
 
 void print_binary(unsigned long int n)
 {
-	int count = sizeof(unsigned long int) * 8;
+	int count = sizeof(unsigned long int) * 8 - 1;
 	int i;
 
-	for (i = count - 1; i >= 0; i--)
+	while (!(n >> count))
 	{
-		if ((n >> 1) & 1)
+		count--;
+	}
+	for (i = count; i >= 0; i--)
+	{
+		if (n & (1ul << i))
 		{
-			printf("1");
+			_putchar('1');
 		}
 		else
 		{
-			printf("0");
+			_putchar('0');
 		}
 	}
 	printf("\n");
