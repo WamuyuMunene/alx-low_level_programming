@@ -16,7 +16,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (*b == 1)
 		{
-			value == (value << 1) | 1;
+			value = (value << 1) | 1;
 		}
 		else if (*b == 0)
 		{
