@@ -24,7 +24,6 @@ unsigned int binary_to_uint(const char *b)
 		}
 		else
 		{
-			exit (98);
 			return (0);
 		}
 		b++;
